@@ -1,0 +1,11 @@
+# Requirements for Custom Nodes
+# Add your dependencies here
+
+# Common dependencies for ComfyUI custom nodes
+# torch>=2.0.0  # Usually provided by ComfyUI
+# numpy>=1.20.0  # Usually provided by ComfyUI
+# pillow>=9.0.0  # Usually provided by ComfyUI
+
+# Add additional dependencies as needed
+# opencv-python>=4.5.0
+# scipy>=1.7.0
