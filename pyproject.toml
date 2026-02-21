@@ -1,0 +1,47 @@
+[project]
+name = "Comfy-Lora-Control"
+description = "Custom nodes for ComfyUI to control and manage LoRA models with advanced features"
+version = "0.1.0"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Victor" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+
+dependencies = []
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Environment :: GPU :: NVIDIA CUDA",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/Comfy-Lora-Control"
+Repository = "https://github.com/yourusername/Comfy-Lora-Control"
+Documentation = "https://github.com/yourusername/Comfy-Lora-Control/blob/main/README.md"
+"Bug Tracker" = "https://github.com/yourusername/Comfy-Lora-Control/issues"
+
+[tool.comfy]
+PublisherId = "victor"
+DisplayName = "Comfy Lora Control"
+Icon = ""
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 100
+target-version = ['py39']
+
+[tool.isort]
+profile = "black"
+line_length = 100
